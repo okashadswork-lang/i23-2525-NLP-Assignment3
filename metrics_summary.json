@@ -1,0 +1,46 @@
+{
+  "encoder": {
+    "sentiment_macro_f1": 0.4817244379462693,
+    "length_macro_f1": 1.0
+  },
+  "retrieval": {
+    "k": 5,
+    "similarity": "cosine"
+  },
+  "decoder": {
+    "rag_test_ppl": 1.0219076889619605,
+    "baseline_test_ppl": 1.0237651757046882
+  },
+  "ablation": {
+    "ppl_gain_baseline_minus_rag": 0.0018574867427276764
+  },
+  "hyperparams": {
+    "data_root": "./Dataset/Dataset",
+    "categories": [
+      "beauty",
+      "electronics",
+      "sports"
+    ],
+    "samples_per_category": 12000,
+    "max_len_encoder": 96,
+    "max_len_decoder": 128,
+    "min_freq": 2,
+    "batch_size": 64,
+    "encoder_epochs": 5,
+    "decoder_epochs": 4,
+    "lr": 0.0003,
+    "weight_decay": 0.0001,
+    "d_model": 192,
+    "n_heads": 6,
+    "ff_dim": 384,
+    "n_encoder_layers": 3,
+    "n_decoder_layers": 3,
+    "dropout": 0.15,
+    "multitask_alpha": 1.0,
+    "multitask_beta": 1.0,
+    "retrieval_k": 5,
+    "decoder_train_limit": 12000,
+    "models_dir": "./models",
+    "results_dir": "./results"
+  }
+}
