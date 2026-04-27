@@ -1,0 +1,6 @@
+example_id,reference,generated_rag,generated_baseline
+0,"The review is positive because it emphasizes satisfying product experience. The writing is medium, which provides enough detail to support this judgment.",,review is positive because it emphasizes satisfying product experience the writing is medium which provides enough detail to support this judgment
+1,The review is negative because it highlights dissatisfaction and product issues. The long length adds evidence for a critical assessment.,,review is negative because it highlights <unk> and product issues the long length adds evidence for a critical assessment
+2,"The review is positive because it emphasizes satisfying product experience. The writing is medium, which provides enough detail to support this judgment.",,review is positive because it emphasizes satisfying product experience the writing is medium which provides enough detail to support this judgment
+3,"The review is positive because it emphasizes satisfying product experience. The writing is long, which provides enough detail to support this judgment.",,
+4,The review is negative because it highlights dissatisfaction and product issues. The long length adds evidence for a critical assessment.,,
